@@ -1,0 +1,119 @@
+- Great Sky Island:
+  - Beat GSI like you normally would:
+      movements:
+        - to: [445.04, 1579.74, -632.49]
+          warp: true
+      comment: But make sure you have 3x wings by the end, a boulder hammer, 6 bomb flowers, and optionally two extra weapons and shield from ToT construct
+- Glider:
+  - Mozzdor and dive down to Tajikats:
+      comment: Land in water next to stable
+  - _Shrine::Tajikats:
+      comment: Use max 2 bombs to clear gaps
+  - Spawn Epona and ride to Teniten
+  - _Shrine::Teniten:
+      comment: Use spare weapons, or provided weapons in shrine
+  - _Shrine::Kamizun:
+      comment: Open chest
+  - _Shrine::Mayachin:
+      movements:
+        - [-706,-1295.9131721527128]
+        - _Shrine::Mayachin
+      comment: Shoot bomb arrow at target to open the gate
+  - _Shrine::Susuyai:
+      comment: Use bomb arrow to open gate
+  - _Shrine::Jiosin:
+      comment: Use bomb shields for first gap and to get up to the finish at the end
+  - _Shrine::Ishodag:
+      comment: Use spring shield at first wall
+  - Talk to Purah:
+      coord: [-252.9375,152.058208264084]
+      icon: purah
+  - _Shrine::Kyononis
+  - Talk to Hoz:
+      icon: hoz
+      coord: [-331.3125,839.646214209868]
+      comment: Ascend up next to balcony
+  - Journey to horned statue:
+      movements:
+        - [-255.25,743.0954975070326]
+        - [-254,762.0847149639048]
+        - [-250.25,713.2781306437819]
+        - [-262.0625,697.0665079847804]
+        - [-263.8125,687.0081578451291]
+        - [-259.5625,680.5118466098829]
+        - [-254.8125,622.8911738146908]
+        - [-226.75,625.2648259968]
+        - [-223.25,615.4578946128231]
+        - [-252.5625,611.0853774352536]
+        - [-259.75,601.9655558934655]
+        - [-252.1875,519.638761930044]
+        - [-255.1875,507.0773969345837]
+        - [-255.375,396.1940972138873]
+        - [-238.25,392.50868987850754]
+        - [-237.8125,379.2662092835826]
+        - [-251.8125,370.6999495810451]
+        - [-277.375,310.69697019412797]
+        - [-270.0625,207.58058913485183]
+        - [-257.6875,197.27394150200962]
+        - [-251.5625,189.34094605127666]
+        - [-252.75,157.35910612391126]
+        - [-234.5625,157.04678346837136]
+      notes: Enter royal passage and follow cave system, throwing hammer at rocks and making more when available. Pick up bomb flowers along the way
+  - Horned Statue:
+     icon: statue
+     comment: Exchange heart for stamina
+  - Paraglider:
+      coord: [-298.25,141.29185329240136]
+      icon: glider
+      comment: Finish Purah dialogue and get glider
+- Finishing shrines:
+  - Glide to Serutabomac:
+     comment: Launch with tower and wing to shrine
+  - _Shrine::Serutabomac:
+     comment: Use bomb shields to skip shrine
+  - _Shrine::Sepapa:
+     comment: Wing to shrine. Use bomb shield at end
+  - _Shrine::Yamiyo:
+     comment: Spawn new Epona
+  - Fuse rocket to shield:
+     icon: rocket
+     coord: [445.03, 133.43, 499.98]
+  - _Shrine::Reniz
+  - _Shrine::Jonsau
+  - _Shrine::Tukarok
+  - 3x rocket chest:
+     coord: [891.57, 118.09, -541.65]
+     icon: rocket
+  - _Shrine::Morok:
+     comment: Use rocket shield to get up to shrine. Use one rocket shield inside
+  - _Shrine::Makasura:
+     comment: Use 2 rocket shields to jump gaps
+  - Trade blessings for stamina:
+      coord: [1840.12, 218.54, -997.89]
+      icon: hoz
+- Master Sword:
+  - Warp to ascend:
+      color: red
+      movements:
+        - to: [708.6875,-1388.609500094255]
+          warp: true
+  - Dive to Dragon Tear:
+     coord: [694.6875,-1309.2337197786337]
+  - Watch cutscene:
+     icon: tear
+  - Warp to RoA:
+     color: gold
+     movements:
+       - to: [340.65, 2441.78, -1747.56]
+         warp: true
+  - Wing to Light Dragon:
+     coord: [1152,2441,-1703.6946837788191]
+     note: Ascend through ceiling
+  - Pull Sword:
+     icon: ms
+
+
+
+
+
+     

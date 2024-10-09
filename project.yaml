@@ -1,0 +1,20 @@
+title: Master Sword (Glitchless)
+version: 1.0.0
+route: 
+  use: ./main.yaml
+config:
+- icons:
+    rocket: https://cdn.wikimg.net/en/zeldawiki/images/b/b2/TotK_Rocket_Icon.png
+    autobuild: https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d5/Autobuild_Icon.png
+    inckorok: https://icons.pistonite.org/icon/misc.korok.none.568c28.c8e6af.8c5e28.ffffb5.8c5e28.ffffb5.png
+    purah: https://cdn.wikimg.net/en/zeldawiki/images/thumb/d/d9/TotK_Purah_Model.png/170px-TotK_Purah_Model.png
+    fairy: https://cdn.wikimg.net/en/zeldawiki/images/d/dc/TotK_Fairy_Icon.png
+    hoz: https://icons.pistonite.org/icon/misc.double_square.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    glider: https://cdn.wikimg.net/en/zeldawiki/images/2/24/TotK_Paraglider_Icon.png
+    purah: https://icons.pistonite.org/icon/character.impa.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    statue: https://icons.pistonite.org/icon/misc.monster.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    ms: https://icons.pistonite.org/icon/shrine.sword.none.cfa240.000000.cfa240.000000.cfa240.000000.png
+- use: Pistonight/celer-presets/totk/full.yaml
+- plugins:
+  - use: variables
+  
